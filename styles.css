@@ -1,0 +1,37 @@
+body{font-family: roboto, sans-serif; margin:0; padding:0; box-sizing:border-box;}
+h1, h2, h3, h4, h5, h6,{ font-family Raleway, sans-serif
+margin:0;
+padding:0;
+box-sizing:border-box}
+
+/*===RESET===*/
+*{
+    margin: :0;
+    padding:0;
+    box-sizing: border-box;}
+/*===BASE STYLES===*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+    background-color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+ul, ol{
+    list-style: none;
+}
