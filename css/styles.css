@@ -1,11 +1,3 @@
-body{
-    font-family: Roboto, sans-serif;
-     margin:0;
-      padding:0;
-       box-sizing:border-box;}
-h1, h2, h3, h4, h5, h6 { font-family: Raleway, sans-serif
-
-}
 
 /*===RESET===*/
 *{
@@ -19,11 +11,13 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-transform: uppercase;
+    color: #434455;
+    background-color: #ffffff;}
+   
 
-}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
+    color: #2e2f42;
 }
 button{
     cursor: pointer;
@@ -89,6 +83,33 @@ ul, ol{
     font-size: 16px;
     text-align:center;
 }
+/*PORTFOLIO*/
+.portfolio-list {
+
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.portfolio-item{
+width: calc((100% - 48)/3);
+background-color: #ffffff;
+border: 1px solid #e7e9fc;
+}
+.portfolio-text-block{
+    padding: 20px;
+}
+.portfolio-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    color: #2e2f42;
+}
+portfolio-text{
+    font-size: 16px;
+    color: #434455;
+}
 .footer{
     text-align: center;
     padding: 32px 0;
@@ -119,6 +140,6 @@ ul, ol{
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip:rect(0 0 0 0);
+    clip: rect(0,0,0,0);
     overflow: hidden;
 }
