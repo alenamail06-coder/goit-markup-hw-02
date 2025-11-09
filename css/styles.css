@@ -349,7 +349,7 @@ portfolio-text{
     clip: rect(0,0,0,0);
     overflow: hidden;
 }
-/*===TEST BLOCK FOR GOIT CHECK===*/
+/*==TEST BLOCK FOR GOIT CHECK==*/
 .test{
     position: relative;
     width: 100%;
