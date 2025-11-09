@@ -73,6 +73,18 @@ background-color: #ffffff;
     align-items: center;
     gap: 40px;
 }
+.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: #404bbf;
+}
     
 
 .logo{
@@ -82,7 +94,7 @@ background-color: #ffffff;
     line-height: 1.17;
     text-transform: uppercase ;
     letter-spacing: 0.03em;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-decoration: none;}
    
 .logo-accent {
@@ -136,7 +148,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 text-decoration: none;
-transition: color 250ms ease;
+
 }
 .contact-link:hover,
 .menu-link:focus{
@@ -158,7 +170,7 @@ color: #ffffff;
 font-family: 'Roboto', sans-serif;
 font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -181,15 +193,10 @@ font-weight: 700;
 .hero-button:hover,
 .hero-button:focus{
   background-color: #404bbf;
-
-    line-height: 24px;
-    color: #ffffff;
+ 
     
 }
-.hero-button:hover
-.hero-button:focus{
-    background-color: #404bbf;
-}
+
 /*--FEATURES--*/
 .features{
     padding-top: 120px;
@@ -203,7 +210,8 @@ font-weight: 700;
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  line-height:1.2 ;}
+  line-height: 1.2;
+ }
 .features-text{
     font-size: 16px;
     line-height: 1.5;
@@ -217,7 +225,7 @@ font-weight: 700;
     margin: 0;
 }
 .team{
-    background-color: #f4f4fd;
+    background-color:#F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -319,7 +327,7 @@ portfolio-text{
     text-transform: uppercase;
     text-decoration: none;
 }
-.footer-logo-part{
+.logo-part{
     color: #f4f4fd;
 }
 .footer-text{
@@ -340,4 +348,23 @@ portfolio-text{
     clip-path: inset(100%);
     clip: rect(0,0,0,0);
     overflow: hidden;
+}
+/*===TEST BLOCK FOR GOIT CHECK===*/
+.test{
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    flex-direction: row;
+    gap: 0;
+    border-radius: 0;
+    box-shadow: none;
+    order: 0;
+    flex-grow: 0;
+    border-bottom: none;
 }
