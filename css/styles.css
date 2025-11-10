@@ -97,7 +97,7 @@ background-color: #ffffff;
     color: #4d5ae5;
     text-decoration: none;}
    
-.logo-accent {
+.logo-part {
     color: #2e2f42;
 }
 .menu-list{
@@ -121,10 +121,6 @@ background-color: #ffffff;
 }
 .menu-link.current{
    color: #404bbf;}
-.current{
-    color: #404bbf;
-   
-}
 .current::after{
     content: "";
    
@@ -143,6 +139,8 @@ background-color: #ffffff;
    
 }
 .contact-link{
+    font-style: normal;
+    font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -190,7 +188,9 @@ font-weight: 700;
     transition: background-color 0.3s;
 
 }
-.hero-button:hover,
+.hero-button:hover{
+    background-color: #404bbf;
+}
 .hero-button:focus{
   background-color: #404bbf;
  
@@ -233,11 +233,14 @@ font-weight: 700;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-line-height: 1.11;
+line-height: 1.2;
 letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
    
+}
+.team-item{
+    background-color: #ffffff;
 }
 .team-list{
     display: flex;
@@ -270,14 +273,14 @@ letter-spacing: 0.02em;
 }
 /*PORTFOLIO*/
 .portfolio{
-    background-color: #ffffff;
-    padding-top: 120px;
-    padding-bottom: 120px;}
+    background-color: #ffffff;}
+   
 
     .portfolio-title{
         line-height: 1.11;
 text-align: center;
 font-size: 36px;
+font-weight: 700;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
