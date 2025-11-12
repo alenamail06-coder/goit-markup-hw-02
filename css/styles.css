@@ -333,7 +333,7 @@ background-color: #ffffff;
 
 }
 .portfolio-item:first-child{
-    width: calc(( 100% - 48px ) / 3);
+    width: calc((100% - 48px) / 3 );
 }
 .portfolio-subtitle{
     font-size: 20px;
