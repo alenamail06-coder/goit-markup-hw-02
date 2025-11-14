@@ -237,7 +237,7 @@ font-weight: 700;
 
 }
 .features-item{
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 
 }
 .visually-hidden{
