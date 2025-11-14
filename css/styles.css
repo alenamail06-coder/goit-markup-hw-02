@@ -30,7 +30,8 @@ a{
     text-decoration: none;
     color: inherit;
 
-}.link{
+}
+.link{
     text-decoration: none;
     display: inline-block;
 }
@@ -274,7 +275,7 @@ letter-spacing: 0.02em;
 
     .team-item:first-child{
     border-radius: 0px 0px 4px 4px;
-     width: calc ((100% - 72px) / 4 );
+     width: calc((100% - 72px) / 4);
 }
 .team-list{
     padding: 0;
