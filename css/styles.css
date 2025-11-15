@@ -31,10 +31,6 @@ a{
     color: inherit;
 
 }
-.link{
-    text-decoration: none;
-    display: inline-block;
-}
 
 ul, ol{
     list-style: none;
@@ -381,11 +377,12 @@ portfolio-text{
     color: #f4f4fd;
     white-space: nowrap;
     margin-bottom: 16px;
+    display: inline-block;
+
 }
 
 a.footer-logo .logo-part{
     color: #4d5ae5;
-    display: inline;
     margin-right: 0;
 }
 .logo-rest{
