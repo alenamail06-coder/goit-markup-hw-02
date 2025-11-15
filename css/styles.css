@@ -83,6 +83,8 @@ border-bottom: 1px solid #e7e9fc;
     padding: 0 15px;
     display: flex;
     padding: 0 15px;
+    align-items: center;
+    justify-content: space-between;
     
 }
 .site-logo{
@@ -326,6 +328,7 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
+padding-left: 0;
 }
 .portfolio-item{
 background-color: #ffffff;
